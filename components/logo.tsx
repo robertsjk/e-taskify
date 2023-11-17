@@ -15,7 +15,7 @@ const Logo = () => {
         <p
           className={cn("text-lg text-neutral-700 pt-2", headingFont.className)}
         >
-          Taskify
+          eTaskify
         </p>
       </div>
     </Link>
