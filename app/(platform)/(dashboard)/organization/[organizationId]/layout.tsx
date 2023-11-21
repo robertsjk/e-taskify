@@ -11,11 +11,11 @@ const OrganizationLayout = ({
   return (
     <>
       <OrgControl id={organizationId} />
-      <div className="pt-20 flex max-w-6xl 2xl:max-w-screen-xl mx-auto gap-x-7">
+      <div className="pt-20 flex max-w-6xl 2xl:max-w-screen-xl mx-auto gap-x-7 px-1">
         <div className="hidden md:block w-64 shrink-0">
           <Sidebar />
         </div>
-        <main>{children}</main>
+        <main className="w-full px-1">{children}</main>
       </div>
     </>
   );
